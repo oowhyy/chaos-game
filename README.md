@@ -9,7 +9,7 @@ Web page based simulation of "Chaos game"
 # How this works
 The basic idea is that we have some attractor points (placed on a circle for certainty). Also there is a pen that can draw dots.
 On each step a random attractor is chosen and the pen lerps some distance to the chosen point. This process should be repeated indefinitely in theory. 
-In practice screen space is discrete and dots start to overlap. In the basisc case after a while a Sierpinski triangle appears.
+In practice screen space is discrete and dots start to overlap. In the basis case - three attractors, any can be chosen with any probability and no other restrictions, lerp distance is 0.5 - after a while a Sierpinski triangle appears.
 ## Basic example
 How to start - run basic/index.html
 ### Basic example controls
@@ -29,7 +29,7 @@ Click any where for the next step
 resets the simulations with new rules
 #### pause/play button
 pauses and resumes the simulation
-#### rules controls - circle of circles
+#### rules control - circle of circles
 Every circle is a radio button. Can be on or off. 
 **These are all restrictions** - based on attractors selected on the previous steps.
 By default there are no restrictions.
@@ -38,9 +38,6 @@ There are 3 types of restrictions represented by each type of circles:
 1. Big yellow circle - restrict choosing node relative to the previous. For example if you cross out the big yellow circle that is next to the orange one clockwise, an attractor clockwise next to the one selected on the previous iteration will be excluded from possible selection pool for the current iteration.
 2. Small yellow circle - same as big one but works two steps back - with the attractor one before previous.
 3. Blue circle - only becomes relevant on the iteration where previous and the one before attractors were the same. Applies relative restriction same as big yellow circles. For example with dark blue circle (indicating relative previous attractor, like all darker cirles) crossed out any attractor can be selected at most two times in a row.
-
-
-
 #### save button
 Download png image of the current fractal
 #### more + less buttons

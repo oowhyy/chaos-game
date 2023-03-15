@@ -31,10 +31,26 @@ resets the simulations with new rules
 pauses and resumes the simulation
 #### rules controls - circle of circles
 Every circle is a radio button. Can be on or off. 
-These are all **restrictions** - based on attractors selected on the previous steps.
+**These are all restrictions** - based on attractors selected on the previous steps.
 By default there are no restrictions.
+Restrictions are **relative**. darker color circles indicate previously chosen node.
+There are 3 types of restrictions represented by each type of circles:
+1. Big yellow circle - restrict choosing node relative to the previous. For example if you cross out the big yellow circle that is next to the orange one clockwise, an attractor clockwise next to the one selected on the previous iteration will be excluded from possible selection pool for the current iteration.
+2. Small yellow circle - same as big one but works two steps back - with the attractor one before previous.
+3. Blue circle - only becomes relevant on the iteration where previous and the one before attractors were the same. Applies relative restriction same as big yellow circles. For example with dark blue circle (indicating relative previous attractor, like all darker cirles) crossed out any attractor can be selected at most two times in a row.
 
-Restrictions are **relative**
-#### save button 
+
+
+#### save button
+Download png image of the current fractal
+#### more + less buttons
+increase or decrease number of attractors
+#### value slider
+Sets the lerping distance. 0.5 by default. Lower values generally lead to more blured images.
+
+# Examples
+
+//TODO add images of fractals with control panels
+
 
 

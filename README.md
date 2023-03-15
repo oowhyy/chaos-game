@@ -1,9 +1,10 @@
 # What is this
-web app simulation of "chaos game"
+Web page based simulation of "Chaos game"
 
-# inspired by
-numberphile video [Chaos Game - Numberphile] (https://youtu.be/kbKtFN71Lfs)
-wiki page [Chaos game] (https://en.wikipedia.org/wiki/Chaos_game)
+# Inspired by
++ Numberphile video [Chaos Game - Numberphile](https://youtu.be/kbKtFN71Lfs)
+
++ Wiki page [Chaos game](https://en.wikipedia.org/wiki/Chaos_game)
 
 # How this works
 The basic idea is that we have some attractor points (placed on a circle for certainty). Also there is a pen that can draw dots.
@@ -15,6 +16,8 @@ How to start - run index.html
 
 Click on a die to make a step (1 or 2 - first attractor selected, 3 or 4 - second, 5 or 6 - third)
 Press "a" on a keyboard to start/stop auto roll.
+
 // TODO add demo gif
 
-## All dots 
+## All dots example
+How to start - run index.html

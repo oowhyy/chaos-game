@@ -46,8 +46,11 @@ increase or decrease number of attractors
 Sets the lerping distance. 0.5 by default. Lower values generally lead to more blured images.
 
 # Examples
-
-//TODO add images of fractals with control panels
+![demo1](https://github.com/oowhyy/chaos-game/blob/main/imgs/demo1.png)
+![demo2](https://github.com/oowhyy/chaos-game/blob/main/imgs/demo2.png)
+![demo3](https://github.com/oowhyy/chaos-game/blob/main/imgs/demo3.png)
+![demo4](https://github.com/oowhyy/chaos-game/blob/main/imgs/demo4.png)
+![demo5](https://github.com/oowhyy/chaos-game/blob/main/imgs/demo5.png)
 
 
 

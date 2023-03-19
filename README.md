@@ -24,6 +24,7 @@ How to start - run example2/index.html
 Click any where for the next step
 
 ## Main simulation
+run main/index.html
 ### Controls
 #### start/reset button
 resets the simulations with new rules
